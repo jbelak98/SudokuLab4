@@ -122,9 +122,13 @@ public class SudokuTest {
 		}
 
 	}
+	
+	@Test
+	public void testSudoku() throws Exception {
+		Sudoku s = new Sudoku(9);
+		assertTrue(s.isSudoku());
+			
+		}
+		
+	}
 
-
-
-
-
-}
